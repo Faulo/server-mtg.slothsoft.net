@@ -5,7 +5,7 @@
 	"license" : "GPL",
 	"keywords" : [
 		"slothsoft",
-		"farah"
+		"farah-server"
 	],
 	"autoload" : {
 		"files" : [
@@ -14,9 +14,9 @@
 	},
 	"require" : {
 		"php" : ">=7.0",
-		"slothsoft/mtg" : "*",
 		"slothsoft/core" : "*",
-		"slothsoft/farah" : "*"
+		"slothsoft/farah" : "*",
+		"slothsoft/mtg" : "*"
 	},
 	"require-dev" : {
 		"slothsoft/amber" : "dev-master",

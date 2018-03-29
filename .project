@@ -3,9 +3,9 @@
 	<name>server-mtg.slothsoft.net</name>
 	<comment></comment>
 	<projects>
-		<project>slothsoft-mtg</project>
 		<project>slothsoft-core</project>
 		<project>slothsoft-farah</project>
+		<project>slothsoft-mtg</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
