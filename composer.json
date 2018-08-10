@@ -1,35 +1,36 @@
 {
-    "name": "slothsoft/mtg.slothsoft.net",
-    "type": "project",
-    "description": "mtg.slothsoft.net",
-    "license": "GPL",
-    "keywords": [
-        "slothsoft",
-        "farah-server"
-    ],
-    "autoload": {
-        "files": [
-            "config.php"
-        ]
-    },
-    "require": {
-        "php": "^7.2",
-        "slothsoft/core": "dev-master",
-        "slothsoft/farah": "dev-master",
-        "slothsoft/mtg": "dev-master"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.5"
-    },
-    "autoload-dev": {
-        "classmap": [
-            "tests/"
-        ]
-    },
-    "classmap-authoritative": true,
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "post-autoload-dump": "Slothsoft\\Core\\ServerEnvironment::cleanCacheDirectory"
-    }
+	"name" : "slothsoft/mtg.slothsoft.net",
+	"type" : "project",
+	"description" : "mtg.slothsoft.net",
+	"license" : "GPL",
+	"keywords" : [
+		"slothsoft",
+		"farah-server"
+	],
+	"autoload" : {
+		"files" : [
+			"config.php",
+			"src/registerModule.php"
+		]
+	},
+	"require" : {
+		"php" : "^7.2",
+		"slothsoft/core" : "dev-master",
+		"slothsoft/farah" : "dev-master",
+		"slothsoft/mtg" : "dev-master"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^6.5"
+	},
+	"autoload-dev" : {
+		"classmap" : [
+			"tests/"
+		]
+	},
+	"classmap-authoritative" : true,
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"scripts" : {
+		"post-autoload-dump" : "Slothsoft\\Core\\ServerEnvironment::cleanCacheDirectory"
+	}
 }

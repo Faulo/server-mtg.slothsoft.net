@@ -17,5 +17,5 @@ ServerEnvironment::setCacheDirectory(__DIR__ . DIRECTORY_SEPARATOR . 'cache');
 ServerEnvironment::setLogDirectory(__DIR__ . DIRECTORY_SEPARATOR . 'log');
 ServerEnvironment::setDataDirectory(__DIR__ . DIRECTORY_SEPARATOR . 'data');
 
-Kernel::setCurrentSitemap('farah://slothsoft@mtg/sitemap');
+Kernel::setCurrentSitemap('farah://slothsoft@mtg.slothsoft.net/sitemap');
 Dictionary::setSupportedLanguages('en-us');
