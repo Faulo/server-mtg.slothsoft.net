@@ -2,7 +2,7 @@
     "name": "slothsoft/mtg.slothsoft.net",
     "type": "project",
     "description": "mtg.slothsoft.net",
-    "license": "GPL",
+    "license": "WTFPL",
     "keywords": [
         "slothsoft",
         "farah-module",
@@ -31,5 +31,12 @@
     "classmap-authoritative": true,
     "scripts": {
         "post-autoload-dump": "Slothsoft\\Core\\ServerEnvironment::cleanCacheDirectory"
-    }
+    },
+    "authors": [
+        {
+            "name": "Daniel Schulz",
+            "email": "info.slothsoft@gmai.com"
+        }
+    ],
+    "homepage": "http://mtg.slothsoft.net"
 }
