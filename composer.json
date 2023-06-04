@@ -2,7 +2,7 @@
 	"name" : "slothsoft/mtg.slothsoft.net",
 	"type" : "project",
 	"description" : "mtg.slothsoft.net",
-	"license" : "GPL",
+	"license" : "MIT",
 	"keywords" : [
 		"slothsoft",
 		"farah-module",
