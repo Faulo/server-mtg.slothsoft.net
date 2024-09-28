@@ -29,7 +29,7 @@
 			"tests/"
 		],
 		"psr-4" : {
-			"Slothsoft\\Server\\MTG\\" : "tests"
+			"Slothsoft\\Server\\MTG\\Tests\\" : "tests"
 		}
 	},
 	"scripts" : {
