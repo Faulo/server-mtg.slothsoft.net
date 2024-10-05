@@ -17,7 +17,7 @@
 		</fragment>
 		<fragment name="search">
 			<import ref="../../default" />
-			<use-document name="content" ref="/api/search" />
+			<use-document name="content" ref="//mtg/html/search" />
 		</fragment>
 
 

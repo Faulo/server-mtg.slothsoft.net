@@ -1398,16 +1398,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-mtg.git",
-                "reference": "fbd4007f632a88c898454221f13e00616156c97b"
+                "reference": "4dfcdba4aef4bde09616e781aad121d904b477a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/fbd4007f632a88c898454221f13e00616156c97b",
-                "reference": "fbd4007f632a88c898454221f13e00616156c97b",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/4dfcdba4aef4bde09616e781aad121d904b477a5",
+                "reference": "4dfcdba4aef4bde09616e781aad121d904b477a5",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2",
+                "php": "^7.4",
                 "slothsoft/chat": "^1.0",
                 "slothsoft/core": "^1.0",
                 "slothsoft/farah": "^1.0",
@@ -1447,7 +1447,7 @@
                 "issues": "https://github.com/Faulo/slothsoft-mtg/issues",
                 "source": "https://github.com/Faulo/slothsoft-mtg/tree/main"
             },
-            "time": "2024-10-05T17:33:46+00:00"
+            "time": "2024-10-05T18:18:46+00:00"
         },
         {
             "name": "slothsoft/sse",
