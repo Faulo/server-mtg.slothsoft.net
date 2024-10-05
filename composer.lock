@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79a7d8be8cc7333612ffb34ddc75730b",
+    "content-hash": "255b60931863cba1339e1dad5b80f838",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -1394,16 +1394,16 @@
         },
         {
             "name": "slothsoft/mtg",
-            "version": "dev-main",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-mtg.git",
-                "reference": "5754cb66a8d5077cebbe398ee07969ef5a19142e"
+                "reference": "df0bf76af8883c47f35230799560a50776683625"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/5754cb66a8d5077cebbe398ee07969ef5a19142e",
-                "reference": "5754cb66a8d5077cebbe398ee07969ef5a19142e",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/df0bf76af8883c47f35230799560a50776683625",
+                "reference": "df0bf76af8883c47f35230799560a50776683625",
                 "shasum": ""
             },
             "require": {
@@ -1416,7 +1416,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -1445,9 +1444,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-mtg/issues",
-                "source": "https://github.com/Faulo/slothsoft-mtg/tree/1.0.6"
+                "source": "https://github.com/Faulo/slothsoft-mtg/tree/1.0.7"
             },
-            "time": "2024-10-05T20:50:48+00:00"
+            "time": "2024-10-05T21:04:57+00:00"
         },
         {
             "name": "slothsoft/sse",
@@ -3444,9 +3443,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "slothsoft/mtg": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
