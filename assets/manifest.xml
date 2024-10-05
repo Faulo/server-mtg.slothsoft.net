@@ -26,7 +26,7 @@
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_index" />
 			<use-document ref="/api/shoutbox" name="shoutbox" />
-			<use-document ref="/static/news" name="news" />
+			<use-document ref="//mtg/static/news" name="news" />
 		</fragment>
 		<fragment name="player">
 			<import ref="/api/default" />
@@ -35,17 +35,17 @@
 		<fragment name="deck">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_deck" />
-			<use-document ref="/data/deck" name="deck" />
+			<use-document ref="//mtg/data/deck" name="deck" />
 		</fragment>
 		<fragment name="mcm">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_mcm" />
-			<use-document ref="/data/search" name="search" />
+			<use-document ref="//mtg/data/search" name="search" />
 		</fragment>
 		<fragment name="dci">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_dci" />
-			<use-document ref="/data/dci" name="dci" />
+			<use-document ref="//mtg/data/dci" name="dci" />
 			<use-document ref="/api/dci.timeline.graph" name="dci.timeline.graph" />
 		</fragment>
 		<fragment name="dci.timeline">
@@ -54,25 +54,25 @@
 			<use-document ref="/api/dci.timeline.graph" name="dci.timeline.graph" />
 		</fragment>
 		<fragment name="deck-edit">
-			<use-document ref="/data/deck.edit" name="deck.edit" />
+			<use-document ref="//mtg/data/deck.edit" name="deck.edit" />
 		</fragment>
 		<fragment name="print">
 			<use-template ref="/xsl/_print" />
-			<use-document ref="/data/print" name="print" />
+			<use-document ref="//mtg/data/print" name="print" />
 		</fragment>
 		<fragment name="print-wizards">
 			<use-template ref="/xsl/_print" />
-			<use-document ref="/data/print-wizards" name="print-wizards" />
+			<use-document ref="//mtg/data/print-wizards" name="print-wizards" />
 		</fragment>
 		<fragment name="show">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_deck" />
-			<use-document ref="/data/show" name="show" />
+			<use-document ref="//mtg/data/show" name="show" />
 		</fragment>
 		<fragment name="decklist">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_decklist" />
-			<use-document ref="/data/show" name="show" />
+			<use-document ref="//mtg/data/show" name="show" />
 		</fragment>
 		<fragment name="manager">
 			<import ref="/api/default" />
@@ -82,7 +82,7 @@
 		<fragment name="bill">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_bill" />
-			<use-document ref="/data/bill" name="bill" />
+			<use-document ref="//mtg/data/bill" name="bill" />
 		</fragment>
 		<fragment name="wizards">
 			<import ref="/api/default" />
@@ -91,34 +91,34 @@
 		<fragment name="prerelease">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_prerelease" />
-			<use-document ref="/static/prerelease" name="prerelease" />
+			<use-document ref="//mtg/static/prerelease" name="prerelease" />
 		</fragment>
 		<fragment name="tokens">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_tokens" />
-			<use-document ref="/static/custom-sets" name="custom-sets" />
+			<use-document ref="//mtg/static/custom-sets" name="custom-sets" />
 		</fragment>
 		<fragment name="reviews">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_reviews" />
-			<use-document ref="/data/oracle" name="oracle" />
-			<use-document ref="/data/reviews" name="reviews" />
-			<use-document ref="/static/reviews" name="reviews" />
+			<use-document ref="//mtg/data/oracle" name="oracle" />
+			<use-document ref="//mtg/data/reviews" name="reviews" />
+			<use-document ref="//mtg/static/reviews" name="reviews" />
 		</fragment>
 		<fragment name="booster">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_booster" />
-			<use-document ref="/data/booster" name="booster" />
+			<use-document ref="//mtg/data/booster" name="booster" />
 		</fragment>
 		<fragment name="prices">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_prices" />
-			<use-document ref="/data/prices" name="prices" />
+			<use-document ref="//mtg/data/prices" name="prices" />
 		</fragment>
 		<fragment name="events">
 			<import ref="/api/default" />
 			<use-template ref="/xsl/_events" />
-			<use-document ref="/static/events" name="events" />
+			<use-document ref="//mtg/static/events" name="events" />
 		</fragment>
 	</fragment>
 
@@ -131,8 +131,8 @@
 			<import ref="/api/ImageCache" />
 		</fragment>
 		<fragment name="dci.timeline.graph">
-			<use-document ref="/data/dci" name="dci" />
-			<use-document ref="/data/sets" name="sets" />
+			<use-document ref="//mtg/data/dci" name="dci" />
+			<use-document ref="//mtg/data/sets" name="sets" />
 			<use-template ref="/xsl/_dci.timeline.graph" />
 		</fragment>
 		<fragment name="ImageCache">
