@@ -5,9 +5,11 @@ services:
             - mysql_password
         environment:
             MYSQL_ROOT_PASSWORD_FILE: /run/secrets/mysql_password
+            SERVER_NAME: mtg
         volumes:
             - ./init.sh:/usr/share/farah/init.sh
             - ..:/var/www
+            - ../../slothsoft-mtg:/var/www/vendor/slothsoft/mtg
         deploy:
             mode: global
             restart_policy:

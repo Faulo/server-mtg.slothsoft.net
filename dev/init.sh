@@ -1,2 +1,2 @@
-composer update --no-interaction
+composer dump-autoload
 apache2-foreground
