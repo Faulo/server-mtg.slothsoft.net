@@ -17,7 +17,7 @@
 		</fragment>
 		<fragment name="search">
 			<import ref="../../default" />
-			<use-document name="content" ref="//mtg/html/search" />
+			<use-document name="content" ref="/api/search" />
 		</fragment>
 
 
@@ -149,5 +149,14 @@
 			<param name="chat-database" value="mtg" />
 			<import ref="//chat/api/shoutbox" />
 		</fragment>
+
+		<fragment name="search">
+			<import ref="//mtg/api/default" />
+			<use-template ref="//mtg/xsl/_search" />
+			<use-document ref="//mtg/static/oracle" />
+			<use-document ref="/api/oracle" />
+		</fragment>
+
+		<custom-asset name="oracle" executable-builder="Slothsoft\Server\MTG\OracleQueryExecutable" parameter-filter="Slothsoft\Server\MTG\OracleQueryParameterFilter" />
 	</fragment>
 </assets>

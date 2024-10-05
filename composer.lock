@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46fade621680bc106d65eef5b3e5ff03",
+    "content-hash": "79a7d8be8cc7333612ffb34ddc75730b",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -1394,16 +1394,16 @@
         },
         {
             "name": "slothsoft/mtg",
-            "version": "1.0.4",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-mtg.git",
-                "reference": "0d2eca8764e71f6efd97c4c30af6b45a83968b3e"
+                "reference": "fbd4007f632a88c898454221f13e00616156c97b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/0d2eca8764e71f6efd97c4c30af6b45a83968b3e",
-                "reference": "0d2eca8764e71f6efd97c4c30af6b45a83968b3e",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/fbd4007f632a88c898454221f13e00616156c97b",
+                "reference": "fbd4007f632a88c898454221f13e00616156c97b",
                 "shasum": ""
             },
             "require": {
@@ -1416,6 +1416,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -1444,9 +1445,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-mtg/issues",
-                "source": "https://github.com/Faulo/slothsoft-mtg/tree/1.0.4"
+                "source": "https://github.com/Faulo/slothsoft-mtg/tree/main"
             },
-            "time": "2024-09-28T22:39:22+00:00"
+            "time": "2024-10-05T17:33:46+00:00"
         },
         {
             "name": "slothsoft/sse",
@@ -3443,7 +3444,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "slothsoft/mtg": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
