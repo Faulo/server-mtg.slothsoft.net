@@ -1,0 +1,37 @@
+services:
+    frontend:
+        container_name: mtg_frontend
+        build:
+            context: .
+            dockerfile_inline: |
+                FROM faulo/farah:${PHP_VERSION}
+                RUN apt update && apt upgrade -y
+                COPY --chown=www-data:www-data . .
+                RUN chmod 777 .
+                USER www-data
+                RUN composer update --no-interaction --no-dev --optimize-autoloader --classmap-authoritative
+            args:
+                PHP_VERSION: ${PHP_VERSION}
+        secrets:
+            - mysql_password
+        environment:
+            MYSQL_ROOT_PASSWORD_FILE: /run/secrets/mysql_password
+        volumes:
+            - mtg_data:/var/www/data
+        networks:
+            - vhosts
+            - mysql
+
+volumes:
+    mtg_data:
+        external: true
+
+networks:
+    vhosts:
+        external: true
+    mysql:
+        external: true
+
+secrets:
+    mysql_password:
+        file: /var/secrets/mysql_password
