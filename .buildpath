@@ -271,6 +271,11 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/slothsoft/farah/src-pthreads">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/slothsoft/mtg/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
