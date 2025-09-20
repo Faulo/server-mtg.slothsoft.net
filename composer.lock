@@ -1419,27 +1419,27 @@
         },
         {
             "name": "slothsoft/mtg",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-mtg.git",
-                "reference": "13520cc2da4aeaf48318a9c147450f967d0b80bf"
+                "reference": "9a3c45cf31f9d3358ecc81981d1c4f94e966d1a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/13520cc2da4aeaf48318a9c147450f967d0b80bf",
-                "reference": "13520cc2da4aeaf48318a9c147450f967d0b80bf",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/9a3c45cf31f9d3358ecc81981d1c4f94e966d1a2",
+                "reference": "9a3c45cf31f9d3358ecc81981d1c4f94e966d1a2",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4",
                 "slothsoft/chat": "^1.0",
                 "slothsoft/core": "^1.0",
-                "slothsoft/farah": "^1.0",
+                "slothsoft/farah": "^1.20",
                 "slothsoft/w3c": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.5"
+                "phpunit/phpunit": "~9.6.23"
             },
             "type": "library",
             "autoload": {
@@ -1469,9 +1469,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-mtg/issues",
-                "source": "https://github.com/Faulo/slothsoft-mtg/tree/1.0.10"
+                "source": "https://github.com/Faulo/slothsoft-mtg/tree/1.0.11"
             },
-            "time": "2025-07-04T16:41:08+00:00"
+            "time": "2025-09-20T18:53:37+00:00"
         },
         {
             "name": "slothsoft/sse",
