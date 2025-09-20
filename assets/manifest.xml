@@ -138,7 +138,7 @@
 			<link-script ref="/js/ImageCache" />
 		</fragment>
 		<fragment name="Manager">
-			<import ref="//slothsoftfarah/api/DOM" />
+			<import ref="//slothsoft@farah/api/DOM" />
 			<link-script ref="/js/MTG" />
 			<link-script ref="/js/MTG.Manager" />
 			<link-script ref="/js/MTG.Deck" />
