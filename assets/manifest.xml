@@ -20,8 +20,7 @@
 			<use-document name="content" ref="//mtg/html/search" />
 		</fragment>
 
-
-
+        <!--
 		<fragment name="index">
 			<import ref="/api/default" />
 			<use-template ref="//mtg/xsl/_index" />
@@ -120,6 +119,7 @@
 			<use-template ref="//mtg/xsl/_events" />
 			<use-document ref="//mtg/static/events" name="events" />
 		</fragment>
+		 -->
 	</fragment>
 
 	<fragment name="api">
@@ -129,11 +129,13 @@
 			<import ref="//slothsoft@farah/api/XPath" />
 			<import ref="/api/ImageCache" />
 		</fragment>
+		<!-- 
 		<fragment name="dci.timeline.graph">
 			<use-document ref="//mtg/data/dci" name="dci" />
 			<use-document ref="//mtg/data/sets" name="sets" />
 			<use-template ref="//mtg/xsl/_dci.timeline.graph" />
 		</fragment>
+		 -->
 		<fragment name="ImageCache">
 			<link-script ref="/js/ImageCache" />
 		</fragment>
