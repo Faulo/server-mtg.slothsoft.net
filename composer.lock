@@ -1341,16 +1341,16 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.20.0",
+            "version": "1.21.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "37cd4a02190fa9ec051c857c7d4bbc1a4c0d8f05"
+                "reference": "bbebb373379b30c74d389b6a3906bb5e20cbae28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/37cd4a02190fa9ec051c857c7d4bbc1a4c0d8f05",
-                "reference": "37cd4a02190fa9ec051c857c7d4bbc1a4c0d8f05",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/bbebb373379b30c74d389b6a3906bb5e20cbae28",
+                "reference": "bbebb373379b30c74d389b6a3906bb5e20cbae28",
                 "shasum": ""
             },
             "require": {
@@ -1382,7 +1382,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20.x-dev"
+                    "dev-main": "1.21.x-dev"
                 }
             },
             "autoload": {
@@ -1413,29 +1413,29 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.20.0"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.21.3"
             },
-            "time": "2025-09-20T17:51:17+00:00"
+            "time": "2025-09-23T01:38:05+00:00"
         },
         {
             "name": "slothsoft/mtg",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-mtg.git",
-                "reference": "9a3c45cf31f9d3358ecc81981d1c4f94e966d1a2"
+                "reference": "9bbceb8f6d020f801b342c1a5b9170d1e721b15a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/9a3c45cf31f9d3358ecc81981d1c4f94e966d1a2",
-                "reference": "9a3c45cf31f9d3358ecc81981d1c4f94e966d1a2",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-mtg/zipball/9bbceb8f6d020f801b342c1a5b9170d1e721b15a",
+                "reference": "9bbceb8f6d020f801b342c1a5b9170d1e721b15a",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4",
                 "slothsoft/chat": "^1.0",
                 "slothsoft/core": "^1.0",
-                "slothsoft/farah": "^1.20",
+                "slothsoft/farah": "^1.21.3",
                 "slothsoft/w3c": "^1.0"
             },
             "require-dev": {
@@ -1469,9 +1469,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-mtg/issues",
-                "source": "https://github.com/Faulo/slothsoft-mtg/tree/1.0.11"
+                "source": "https://github.com/Faulo/slothsoft-mtg/tree/1.0.12"
             },
-            "time": "2025-09-20T18:53:37+00:00"
+            "time": "2025-09-23T02:16:03+00:00"
         },
         {
             "name": "slothsoft/sse",
@@ -2906,16 +2906,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "4.0.6",
+            "version": "4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "78c00df8f170e02473b682df15bfcdacc3d32d72"
+                "reference": "eb49b981ef0817890129cb70f774506bebe57740"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/78c00df8f170e02473b682df15bfcdacc3d32d72",
-                "reference": "78c00df8f170e02473b682df15bfcdacc3d32d72",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/eb49b981ef0817890129cb70f774506bebe57740",
+                "reference": "eb49b981ef0817890129cb70f774506bebe57740",
                 "shasum": ""
             },
             "require": {
@@ -2971,15 +2971,27 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
-                "source": "https://github.com/sebastianbergmann/exporter/tree/4.0.6"
+                "source": "https://github.com/sebastianbergmann/exporter/tree/4.0.7"
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/exporter",
+                    "type": "tidelift"
                 }
             ],
-            "time": "2024-03-02T06:33:00+00:00"
+            "time": "2025-09-22T05:18:21+00:00"
         },
         {
             "name": "sebastian/global-state",
