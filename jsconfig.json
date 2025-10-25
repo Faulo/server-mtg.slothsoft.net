@@ -7,6 +7,9 @@
       "/slothsoft@farah/*": [
         "../slothsoft-farah/assets/*"
       ],
+      "/slothsoft@mtg.slothsoft.net/*": [
+        "./assets/*"
+      ],
       "/slothsoft@mtg/*": [
         "../slothsoft-mtg/assets/*"
       ],
