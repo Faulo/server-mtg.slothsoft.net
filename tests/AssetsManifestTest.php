@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 namespace Slothsoft\Server\MTG\Tests;
 
-use Slothsoft\Farah\ModuleTests\AbstractXmlManifestTest;
+use Slothsoft\FarahTesting\Module\AbstractXmlManifestTest;
 
 class AssetsManifestTest extends AbstractXmlManifestTest {
 
