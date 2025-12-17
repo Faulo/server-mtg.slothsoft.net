@@ -1,163 +1,68 @@
 <?xml version="1.0"?>
 <assets xmlns="http://schema.slothsoft.net/farah/module" version="1.1">
-	<resource-directory name="css" type="text/css" />
-	<resource-directory name="js" type="application/javascript" />
-	<resource-directory name="xsl" type="application/xslt+xml" />
+    <resource-directory name="css" type="text/css" />
+    <resource-directory name="js" type="application/javascript" />
+    <resource-directory name="xsl" type="application/xslt+xml" />
 
-	<resource-directory name="dictionary" type="application/xml" />
+    <resource-directory name="dictionary" type="application/xml" />
 
-	<directory name="sitemap">
-		<resource use="template" name="template" type="application/xslt+xml" />
-	</directory>
+    <directory name="sitemap">
+        <resource use="template" name="template" type="application/xslt+xml" />
+    </directory>
 
-	<fragment name="pages">
-		<fragment name="default">
-			<use-template ref="/xsl/default" />
-			<use-document name="sites" ref="//farah/sites" />
-		</fragment>
-		<fragment name="search">
-			<import ref="../../default" />
-			<use-document name="content" ref="//mtg/html/search" />
-		</fragment>
+    <fragment name="pages">
+        <fragment name="default">
+            <use-template ref="/xsl/default" />
+            <use-document name="sites" ref="//farah/sites" />
+        </fragment>
+        <fragment name="search">
+            <import ref="../../default" />
+            <use-document name="content" ref="//mtg/html/search" />
+        </fragment>
 
-        <!--
-		<fragment name="index">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_index" />
-			<use-document ref="/api/shoutbox" name="shoutbox" />
-			<use-document ref="//mtg/static/news" name="news" />
-		</fragment>
-		<fragment name="player">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_player" />
-		</fragment>
-		<fragment name="deck">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_deck" />
-			<use-document ref="//mtg/data/deck" name="deck" />
-		</fragment>
-		<fragment name="mcm">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_mcm" />
-			<use-document ref="//mtg/data/search" name="search" />
-		</fragment>
-		<fragment name="dci">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_dci" />
-			<use-document ref="//mtg/data/dci" name="dci" />
-			<use-document ref="/api/dci.timeline.graph" name="dci.timeline.graph" />
-		</fragment>
-		<fragment name="dci.timeline">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_dci.timeline" />
-			<use-document ref="/api/dci.timeline.graph" name="dci.timeline.graph" />
-		</fragment>
-		<fragment name="deck-edit">
-			<use-document ref="//mtg/data/deck.edit" name="deck.edit" />
-		</fragment>
-		<fragment name="print">
-			<use-template ref="//mtg/xsl/_print" />
-			<use-document ref="//mtg/data/print" name="print" />
-		</fragment>
-		<fragment name="print-wizards">
-			<use-template ref="//mtg/xsl/_print" />
-			<use-document ref="//mtg/data/print-wizards" name="print-wizards" />
-		</fragment>
-		<fragment name="show">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_deck" />
-			<use-document ref="//mtg/data/show" name="show" />
-		</fragment>
-		<fragment name="decklist">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_decklist" />
-			<use-document ref="//mtg/data/show" name="show" />
-		</fragment>
-		<fragment name="manager">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_manager" />
-			<import ref="/api/Manager" />
-		</fragment>
-		<fragment name="bill">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_bill" />
-			<use-document ref="//mtg/data/bill" name="bill" />
-		</fragment>
-		<fragment name="wizards">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_wizards" />
-		</fragment>
-		<fragment name="prerelease">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_prerelease" />
-			<use-document ref="//mtg/static/prerelease" name="prerelease" />
-		</fragment>
-		<fragment name="tokens">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_tokens" />
-			<use-document ref="//mtg/static/custom-sets" name="custom-sets" />
-		</fragment>
-		<fragment name="reviews">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_reviews" />
-			<use-document ref="//mtg/data/oracle" name="oracle" />
-			<use-document ref="//mtg/data/reviews" name="reviews" />
-			<use-document ref="//mtg/static/reviews" name="reviews" />
-		</fragment>
-		<fragment name="booster">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_booster" />
-			<use-document ref="//mtg/data/booster" name="booster" />
-		</fragment>
-		<fragment name="prices">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_prices" />
-			<use-document ref="//mtg/data/prices" name="prices" />
-		</fragment>
-		<fragment name="events">
-			<import ref="/api/default" />
-			<use-template ref="//mtg/xsl/_events" />
-			<use-document ref="//mtg/static/events" name="events" />
-		</fragment>
-		 -->
-	</fragment>
+        <!-- <fragment name="index"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_index" /> <use-document ref="/api/shoutbox" name="shoutbox" /> <use-document ref="//mtg/static/news" name="news" /> </fragment> <fragment name="player"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_player" 
+            /> </fragment> <fragment name="deck"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_deck" /> <use-document ref="//mtg/data/deck" name="deck" /> </fragment> <fragment name="mcm"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_mcm" /> <use-document ref="//mtg/data/search" name="search" 
+            /> </fragment> <fragment name="dci"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_dci" /> <use-document ref="//mtg/data/dci" name="dci" /> <use-document ref="/api/dci.timeline.graph" name="dci.timeline.graph" /> </fragment> <fragment name="dci.timeline"> <import ref="/api/default" /> <use-template 
+            ref="//mtg/xsl/_dci.timeline" /> <use-document ref="/api/dci.timeline.graph" name="dci.timeline.graph" /> </fragment> <fragment name="deck-edit"> <use-document ref="//mtg/data/deck.edit" name="deck.edit" /> </fragment> <fragment name="print"> <use-template ref="//mtg/xsl/_print" /> <use-document ref="//mtg/data/print" 
+            name="print" /> </fragment> <fragment name="print-wizards"> <use-template ref="//mtg/xsl/_print" /> <use-document ref="//mtg/data/print-wizards" name="print-wizards" /> </fragment> <fragment name="show"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_deck" /> <use-document ref="//mtg/data/show" 
+            name="show" /> </fragment> <fragment name="decklist"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_decklist" /> <use-document ref="//mtg/data/show" name="show" /> </fragment> <fragment name="manager"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_manager" /> <import ref="/api/Manager" 
+            /> </fragment> <fragment name="bill"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_bill" /> <use-document ref="//mtg/data/bill" name="bill" /> </fragment> <fragment name="wizards"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_wizards" /> </fragment> <fragment name="prerelease"> 
+            <import ref="/api/default" /> <use-template ref="//mtg/xsl/_prerelease" /> <use-document ref="//mtg/static/prerelease" name="prerelease" /> </fragment> <fragment name="tokens"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_tokens" /> <use-document ref="//mtg/static/custom-sets" name="custom-sets" 
+            /> </fragment> <fragment name="reviews"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_reviews" /> <use-document ref="//mtg/data/oracle" name="oracle" /> <use-document ref="//mtg/data/reviews" name="reviews" /> <use-document ref="//mtg/static/reviews" name="reviews" /> </fragment> <fragment 
+            name="booster"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_booster" /> <use-document ref="//mtg/data/booster" name="booster" /> </fragment> <fragment name="prices"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_prices" /> <use-document ref="//mtg/data/prices" name="prices" 
+            /> </fragment> <fragment name="events"> <import ref="/api/default" /> <use-template ref="//mtg/xsl/_events" /> <use-document ref="//mtg/static/events" name="events" /> </fragment> -->
+    </fragment>
 
-	<fragment name="api">
-		<fragment name="default">
-			<use-document ref="//slothsoft@farah/sites" name="sites" />
-			<link-stylesheet ref="/css/default" />
-			<import ref="//slothsoft@farah/api/XPath" />
-			<import ref="/api/ImageCache" />
-		</fragment>
-		<!-- 
-		<fragment name="dci.timeline.graph">
-			<use-document ref="//mtg/data/dci" name="dci" />
-			<use-document ref="//mtg/data/sets" name="sets" />
-			<use-template ref="//mtg/xsl/_dci.timeline.graph" />
-		</fragment>
-		 -->
-		<fragment name="ImageCache">
-			<link-script ref="/js/ImageCache" />
-		</fragment>
-		<fragment name="Manager">
-			<import ref="//slothsoft@farah/api/DOM" />
-			<link-script ref="/js/MTG" />
-			<link-script ref="/js/MTG.Manager" />
-			<link-script ref="/js/MTG.Deck" />
-		</fragment>
+    <fragment name="api">
+        <fragment name="default">
+            <use-document ref="//slothsoft@farah/sites" name="sites" />
+            <link-stylesheet ref="/css/default" />
+            <import ref="//slothsoft@farah/api/XPath" />
+            <import ref="/api/ImageCache" />
+        </fragment>
+        <!-- <fragment name="dci.timeline.graph"> <use-document ref="//mtg/data/dci" name="dci" /> <use-document ref="//mtg/data/sets" name="sets" /> <use-template ref="//mtg/xsl/_dci.timeline.graph" /> </fragment> -->
+        <fragment name="ImageCache">
+            <link-script ref="/js/ImageCache" />
+        </fragment>
+        <fragment name="Manager">
+            <import ref="//slothsoft@farah/api/DOM" />
+            <link-script ref="/js/MTG" />
+            <link-script ref="/js/MTG.Manager" />
+            <link-script ref="/js/MTG.Deck" />
+        </fragment>
 
-		<fragment name="shoutbox">
-			<param name="chat-database" value="mtg" />
-			<import ref="//chat/api/shoutbox" />
-		</fragment>
+        <fragment name="shoutbox">
+            <param name="chat-database" value="mtg" />
+            <import ref="//chat/api/shoutbox" />
+        </fragment>
 
-		<fragment name="search">
-			<import ref="//mtg/api/default" />
-			<use-template ref="//mtg/xsl/_search" />
-			<use-document ref="//mtg/static/oracle" />
-			<use-document ref="/api/oracle" />
-		</fragment>
+        <fragment name="search">
+            <import ref="//mtg/api/default" />
+            <use-template ref="//mtg/xsl/_search" />
+            <use-document ref="//mtg/static/oracle" />
+            <use-document ref="/api/oracle" />
+        </fragment>
 
-		<custom-asset name="oracle" executable-builder="Slothsoft\Server\MTG\OracleQueryExecutable" parameter-filter="Slothsoft\Server\MTG\OracleQueryParameterFilter" />
-	</fragment>
+        <custom-asset name="oracle" executable-builder="Slothsoft\Server\MTG\OracleQueryExecutable" parameter-filter="Slothsoft\Server\MTG\OracleQueryParameterFilter" />
+    </fragment>
 </assets>
