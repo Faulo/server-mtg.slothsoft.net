@@ -40,20 +40,16 @@
             <import ref="//slothsoft@farah/api/XPath" />
             <import ref="/api/ImageCache" />
         </fragment>
-        <!-- <fragment name="dci.timeline.graph"> <use-document ref="//mtg/data/dci" name="dci" /> <use-document ref="//mtg/data/sets" name="sets" /> <use-template ref="//mtg/xsl/_dci.timeline.graph" /> </fragment> -->
+
         <fragment name="ImageCache">
             <link-script ref="/js/ImageCache" />
         </fragment>
+
         <fragment name="Manager">
             <import ref="//slothsoft@farah/api/DOM" />
             <link-script ref="/js/MTG" />
             <link-script ref="/js/MTG.Manager" />
             <link-script ref="/js/MTG.Deck" />
-        </fragment>
-
-        <fragment name="shoutbox">
-            <param name="chat-database" value="mtg" />
-            <import ref="//chat/api/shoutbox" />
         </fragment>
 
         <fragment name="search">
