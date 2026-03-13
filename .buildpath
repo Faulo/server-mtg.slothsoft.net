@@ -268,11 +268,6 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry kind="src" path="vendor/slothsoft/chat/src">
-		<attributes>
-			<attribute name="composer" value="vendor"/>
-		</attributes>
-	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/slothsoft/core/scripts">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -299,11 +294,6 @@
 		</attributes>
 	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/slothsoft/mtg/src">
-		<attributes>
-			<attribute name="composer" value="vendor"/>
-		</attributes>
-	</buildpathentry>
-	<buildpathentry kind="src" path="vendor/slothsoft/sse/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
