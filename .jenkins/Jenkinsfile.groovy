@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'mörkö'
+        label 'Mörkö'
     }
     options {
         disableConcurrentBuilds()
@@ -13,7 +13,7 @@ pipeline {
                 script {
                     withEnvFile {
                         stage ('Run tests') {
-                            withDockerContainer(image: "faulo/farah:${PHP_VERSION}", toolName: 'Default', args: '-v /var/vhosts/${SERVER_NAME}:${WORKSPACE}/data') {
+                            docker.image("faulo/farah:${PHP_VERSION}").inside('-v /var/vhosts/${SERVER_NAME}:${WORKSPACE}/data') {
                                 callShell 'composer install --no-interaction --optimize-autoloader --classmap-authoritative'
                                 callShell 'composer exec server-clean cache logs'
 
