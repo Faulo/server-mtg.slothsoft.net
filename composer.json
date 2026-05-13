@@ -1,42 +1,42 @@
 {
-	"name" : "slothsoft/mtg.slothsoft.net",
-	"type" : "project",
-	"description" : "mtg.slothsoft.net",
-	"license" : "MIT",
-	"keywords" : [
-		"slothsoft",
-		"farah-module",
-		"farah-server"
-	],
-	"autoload" : {
-		"files" : [
-			"src/bootstrap.php"
-		],
-		"psr-4" : {
-			"Slothsoft\\Server\\MTG\\" : "src"
-		}
-	},
-	"require" : {
-		"ext-mysqli" : "*",
-		"slothsoft/core" : "^1.14.19",
-		"slothsoft/farah" : "^1.27.1",
-		"slothsoft/mtg" : "^1.0"
-	},
-	"require-dev" : {
-		"phpunit/phpunit" : "~9.6.23",
-		"slothsoft/farah-testing" : "^1.3.1"
-	},
-	"autoload-dev" : {
-		"classmap" : [
-			"tests/"
-		],
-		"psr-4" : {
-			"Slothsoft\\Server\\MTG\\" : "tests"
-		}
-	},
-	"scripts" : {
-		"farah-asset" : "@php vendor/slothsoft/farah/scripts/farah-asset.php",
-		"farah-page" : "@php vendor/slothsoft/farah/scripts/farah-page.php"
-	},
-	"homepage" : "https://mtg.slothsoft.net"
+    "name": "slothsoft/mtg.slothsoft.net",
+    "type": "project",
+    "description": "mtg.slothsoft.net",
+    "license": "MIT",
+    "keywords": [
+        "slothsoft",
+        "farah-module",
+        "farah-server"
+    ],
+    "autoload": {
+        "files": [
+            "src/bootstrap.php"
+        ],
+        "psr-4": {
+            "Slothsoft\\Server\\MTG\\": "src"
+        }
+    },
+    "require": {
+        "ext-mysqli": "*",
+        "slothsoft/core": "^1.14.19",
+        "slothsoft/farah": "^1.27.1",
+        "slothsoft/mtg": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.6.23",
+        "slothsoft/farah-testing": "^1.3.1"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ],
+        "psr-4": {
+            "Slothsoft\\Server\\MTG\\": "tests"
+        }
+    },
+    "scripts": {
+        "farah-asset": "@php vendor/slothsoft/farah/scripts/farah-asset.php",
+        "farah-page": "@php vendor/slothsoft/farah/scripts/farah-page.php"
+    },
+    "homepage": "https://mtg.slothsoft.net"
 }
