@@ -1,7 +1,13 @@
+import Bootstrap from "/slothsoft@farah/js/Bootstrap";
 
 const MESSAGE_ERROR = 0;
 const MESSAGE_IMAGE_FOUND = 1;
 const MESSAGE_STATUS_QUEUE = 2;
+
+Bootstrap.run(async () => {
+    window.imageCache = new ImageCache("mtg");
+    window.imageCache.init();
+});
 
 function ImageCache(name) {
 	try {
@@ -152,14 +158,4 @@ ImageCache.prototype = Object.create(
 		},
 		//*/
 	}
-);
-
-window.imageCache = new ImageCache("mtg");
-
-window.addEventListener(
-	"DOMContentLoaded",
-	function(eve) {
-		window.imageCache.init();
-	},
-	false
 );
